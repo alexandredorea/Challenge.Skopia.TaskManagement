@@ -1,0 +1,6 @@
+services:
+  challenge.skopia.taskmanagement.api:
+    image: ${DOCKER_REGISTRY-}challengeskopiataskmanagementapi
+    build:
+      context: .
+      dockerfile: src/Challenge.Skopia.TaskManagement.Api/Dockerfile
